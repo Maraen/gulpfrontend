@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    background: $bg_footer;
+     // temp remove after
+    color: white;
+
+    .footer-float{
+        width: 33%;
+        text-align:left;
+    }
+
+    .float-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .float-2{
+        ul{
+            list-style: none;
+            padding:0;
+        }
+    }
+
+    .float-3{
+        img{
+            width: 40px;
+            height: 40px;
+            float: left;
+            padding-right: 10px;
+        }
+
+        p{
+            width: 60%;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+nav {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: black;
+  font-size: 24px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: black;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: $font;
+  font-size: 14px;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+footer {
+  h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+  }
+
+  p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+  }
+}

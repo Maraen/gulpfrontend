@@ -1,0 +1,64 @@
+main {
+  section {
+    height: 960px;
+  }
+
+  .flex_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 100%;
+  }
+  .alt-flex {
+    background: $bg_P;
+    width: 50%;
+    height: 960px;
+  }
+
+  .mini-flex {
+    background: white;
+    width: 50%;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      margin: 0 auto;
+      padding-top: 50px;
+    }
+    hr {
+      width: 50px;
+    }
+    div {
+      text-align: center;
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  .alt-flex2 {
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 960px;
+    background-repeat: no-repeat;
+  }
+
+  .alt1 {
+    background-image: url("assets/img/mimosaimg.jpg");
+  }
+
+  .alt2 {
+    background-image: url("assets/img/DesignProject.jpg");
+  }
+
+  .alt3 {
+    background-image: url("assets/img/adhara.jpg");
+  }
+
+  .alt4 {
+    background-image: url("assets/img/amber.jpg");
+  }
+}
